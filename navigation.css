@@ -1,0 +1,38 @@
+main {
+    margin: 0;
+    flex-grow: 1;
+    margin-bottom: 20%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+li {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2% 4%;
+    margin: 5% auto;
+    width: fit-content;
+    border: 2px solid transparent;
+    border-radius: 120px;
+}
+
+li:hover {
+    border-color: white;
+    color: rgb(161, 214, 187);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}

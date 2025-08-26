@@ -1,0 +1,21 @@
+header {
+    position: static;
+    display: grid;
+    grid-template-areas: "title title"
+                         "date date"
+                         "checkbox nav";
+}
+
+header button {
+    grid-area: date;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    margin: auto;
+    width: fit-content;
+    border: none;
+}
+
+header h1 i:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(13, 0, 14);
+    color: white;
+    font-size: 1rem;
+}
+
+body {
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+header, main {
+    margin: 0 auto;
+    padding: 10% 0;
+    width: 100%;
+    background-color: rgb(3, 2, 14);
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0;
+}
+
+h1 {
+    margin: auto;
+    font-size: 3rem;
+}
+
+p, legend, input {
+    font-size: 1rem;
+}

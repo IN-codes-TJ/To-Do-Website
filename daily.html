@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="daily.css">
+</head>
+<body>
+    <header>
+        <h1><i><</i> Monday <i>></i></h1>
+        <button>26/08/2025</button>
+        <div>
+            <input type="checkbox">
+            <p>Show all completed</p>
+        </div>
+        <div id="hamburger">
+            <a href="navigation.html">
+                <span class="line"></span>
+                <span class="line"></span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="to-do">
+            <input type="checkbox" class="check">
+            <input type="text" class="todo-title" value="To do title value ex">
+            <button type="button" class="bin">
+                <img src="assets/bin-icon.png" alt="A bin icon">
+            </button>
+            <label class="star-container" for=star>
+                <input type="checkbox" id="star">
+                <span>☆</span>
+            </label>
+        </div>
+        <button type="button" id="add-todo">+</button>
+    </main>
+</body>
+</html>
